@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.conpeto.nullpointer.conpeto.CreateGroup">
+
+    <TextView
+        android:id="@+id/enter_Prompt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/please_sepcify_information_of_group_you_want_to_create"
+        android:layout_marginStart="50dp" />
+
+    <EditText
+        android:id="@+id/group_Name"
+        android:layout_alignLeft="@+id/enter_Prompt"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enter_Prompt"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/group_name"
+        android:layout_alignStart="@+id/enter_Prompt"
+        android:importantForAutofill="no" tools:targetApi="o" />
+
+    <EditText
+        android:id="@+id/group_Activity"
+        android:layout_alignLeft="@+id/enter_Prompt"
+        android:layout_below="@+id/group_Name"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/group_activity_sports"
+        android:importantForAutofill="no" tools:targetApi="o"
+        android:layout_alignStart="@+id/enter_Prompt" />
+
+    <Button
+        android:id="@+id/button_Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="226dp"
+        android:text="@string/submit" />
+
+    <Button
+        android:id="@+id/button_Cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="165dp"
+        android:text="@string/cancel" />
+
+    <TextView
+        android:id="@+id/group_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginLeft="129dp"
+        android:layout_marginTop="89dp"
+        android:text="@string/create_your_group" />
+
+</RelativeLayout>

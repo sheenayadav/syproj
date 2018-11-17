@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.conpeto.nullpointer.conpeto.CreateGroup">
+
+    <TextView
+        android:id="@+id/enter_Prompt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="150dp"
+        android:text="@string/enter_the_name_of_group_you_want_to_join"
+        android:layout_marginStart="50dp" />
+
+    <EditText
+        android:id="@+id/group_Name2"
+        android:layout_alignLeft="@+id/enter_Prompt2"
+        android:layout_width="396dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/enter_Prompt2"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/group_name"
+        android:layout_alignStart="@+id/enter_Prompt2"
+        android:importantForAutofill="no" tools:targetApi="o" />
+
+    <Button
+        android:id="@+id/button_Submit2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="285dp"
+        android:text="@string/submit" />
+
+    <Button
+        android:id="@+id/button_Cancel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="222dp"
+        android:text="@string/cancel" />
+
+    <TextView
+        android:id="@+id/join_Group_Text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="95dp"
+        android:text="@string/search_for_and_join_a_group" />
+
+</RelativeLayout>

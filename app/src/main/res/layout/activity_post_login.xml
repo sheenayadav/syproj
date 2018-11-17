@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+tools:context="com.conpeto.nullpointer.conpeto.PostLogin">
+
+
+    <Button
+        android:id="@+id/create_Group"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="@string/create_a_group"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="180dp" />
+
+    <Button
+        android:id="@+id/search_Group"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="@string/search_for_groups"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="240dp" />
+
+    <Button
+        android:id="@+id/view_groups"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:text="@string/view_my_groups" />
+
+</LinearLayout>
